@@ -1,10 +1,10 @@
 import React from "react";
 
-type prop = {
+type Props = {
     children: React.ReactNode;
 };
 
-const HText = ({ children }: props) => {
+const HText = ({ children }: Props) => {
     return (
         <h1 className="basis-3/5 font-monserrat text-3xl font-bold" >
             {children}
