@@ -4,6 +4,10 @@ import ActionButton from "@/shared/ActionButton";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
+import SponsorVictoria from "@/assets/SponsprVictoria.png";
+import SponsorAvon from "@/assets/SponsorAvon.png";
+import SponsorAvon2 from "@/assets/SponsorAvon2.png";
+import SponsorCosmo from "@/assets/SponsorCosmo.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -95,10 +99,13 @@ const Home = ({setSelectedPage}: Props) => {
         {isAboveMediumScreens && (
             <div className="h-[150px] w-full bg-primary-100 py-10">
                 <div className="mx-auto w-5/6">
-                    <div className="flex w-3/5 items-center justify-between gap-8">
+                    <div className="flex w-full items-center justify-between gap-8">
                         <img src={SponsorRedBull} alt="redbull-sponsor" />
                         <img src={SponsorForbes} alt="forbes-sponsor" />
                         <img src={SponsorFortune} alt="fortune-sponsor" />
+                        <img src={SponsorAvon} alt="fortune-sponsor" />
+                        <img src={SponsorVictoria} alt="fortune-sponsor" />
+                        <img src={SponsorCosmo} alt="fortune-sponsor" />
                     </div>
                 </div>
             </div>

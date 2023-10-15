@@ -7,6 +7,8 @@ import OurClasses from "./scenes/ourClasses";
 import Footer from "./scenes/footer";
 import ContactUs from "./scenes/contactUs";
 
+
+
 function App() {
 	const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
 	const [isTopOfPage, setIsTopOfPage] = useState<Boolean>(true)
