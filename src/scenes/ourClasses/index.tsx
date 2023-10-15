@@ -13,33 +13,35 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Unleash your inner strength with our Weight Training Classes. Join us and sculpt your physique with expert guidance and top-notch equipment.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description: "Cultivate inner peace and enhance flexibility with our Yoga Classes. Join us to discover the serenity and strength that yoga can bring to your mind and body.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Cultivate core strength and enhance your fitness with our Ab Core Classes. Join us to target your midsection and develop a strong, resilient core that supports your overall well-being.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Embark on thrilling adventures with our Adventure Classes. Join us for adrenaline-pumping experiences and outdoor challenges that invigorate your body and spirit.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description: "Elevate your fitness game with our Fitness Classes. Join us for dynamic and diverse workouts that will help you achieve your health and wellness goals.",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Empower your fitness journey with our Training Classes. Join us for expert-guided sessions designed to enhance your performance, build endurance, and achieve your fitness goals.",
     image: image6,
   },
 ];
@@ -68,10 +70,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+            Explore our classes at Evogym, a diverse selection of fitness experiences crafted for all levels and interests. From HIIT to yoga, our expert instructors ensure you find the perfect class to meet your fitness goals and embrace a rewarding journey within our empowering community.
             </p>
           </div>
         </motion.div>
