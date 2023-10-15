@@ -6,7 +6,6 @@ import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorVictoria from "@/assets/SponsprVictoria.png";
 import SponsorAvon from "@/assets/SponsorAvon.png";
-import SponsorAvon2 from "@/assets/SponsorAvon2.png";
 import SponsorCosmo from "@/assets/SponsorCosmo.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
